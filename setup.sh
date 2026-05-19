@@ -15,10 +15,9 @@ BOLD='\033[1m'
 RESET='\033[0m'
 
 # ── Chemins ───────────────────────────────────────────────────────────────────
-WALLPAPER_DIR="$HOME/.local/share/backgrounds/Islande"
-XML_DIR="$HOME/.local/share/backgrounds/islande-wallpaper"
+WALLPAPER_DIR="$HOME/.local/share/backgrounds/islande-wallpaper"
 GNOME_PROPS_DIR="$HOME/.local/share/gnome-background-properties"
-DYNAMIC_XML="$XML_DIR/islande-dynamic.xml"
+DYNAMIC_XML="$WALLPAPER_DIR/islande-dynamic.xml"
 GNOME_XML="$GNOME_PROPS_DIR/islande.xml"
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
@@ -64,7 +63,7 @@ install_wallpapers() {
 generate_dynamic_xml() {
   step "Génération du XML dynamique"
 
-  mkdir -p "$XML_DIR"
+  mkdir -p "$WALLPAPER_DIR"
 
   cat > "$DYNAMIC_XML" << EOF
 <background>
@@ -209,7 +208,7 @@ apply_wallpaper() {
 # ── Désinstallation ───────────────────────────────────────────────────────────
 uninstall() {
   step "Désinstallation"
-  rm -rf "$WALLPAPER_DIR" "$XML_DIR" "$GNOME_XML"
+  rm -rf "$WALLPAPER_DIR" "$GNOME_XML"
   gsettings reset org.gnome.desktop.background picture-uri
   gsettings reset org.gnome.desktop.background picture-uri-dark
   success "Wallpaper supprimé"
