@@ -29,7 +29,7 @@ Les transitions entre phases sont progressives (overlay GNOME natif).
 ### Installation rapide
 
 ```bash
-git clone https://github.com/[ton-pseudo]/islande-wallpaper
+git clone https://github.com/Mozeur/islande-wallpaper
 cd islande-wallpaper
 chmod +x setup.sh
 ./setup.sh
