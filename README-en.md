@@ -29,7 +29,7 @@ Transitions between phases are smooth (native GNOME overlay crossfade).
 ### Quick install
 
 ```bash
-git clone https://github.com/[your-username]/iceland-wallpaper
+git clone https://github.com/Mozeur/iceland-wallpaper
 cd iceland-wallpaper
 chmod +x setup.sh
 ./setup.sh
