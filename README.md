@@ -67,7 +67,7 @@ islande-wallpaper/
 ## Comment ça marche
 
 GNOME supporte nativement les fonds d'écran dynamiques via un fichier XML.
-Pas de démon, pas de cron, pas de dépendance externe — c'est géré directement
+Pas de démon, pas de cron, pas de dépendance externe, c'est géré directement
 par `gnome-session`.
 
 Le fichier `islande-dynamic.xml` définit des blocs `<static>` (durée fixe)
