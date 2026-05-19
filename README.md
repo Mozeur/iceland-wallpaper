@@ -77,6 +77,3 @@ et `<transition type="overlay">` (fondu entre deux images).
 
 Images générées par IA (inspiration : paysages islandais, style anime/illustration).
 
----
-
-*Pour r/unixporn — [lien vers le post]()*
