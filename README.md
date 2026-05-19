@@ -2,7 +2,7 @@
 
 > Fond d'écran dynamique pour GNOME — paysage islandais animé style anime, 8 variations selon l'heure.
 
-![preview](preview.png)
+![preview](wallpapers/1.png)
 
 ## Aperçu des transitions
 
