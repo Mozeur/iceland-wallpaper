@@ -2,7 +2,7 @@
 
 > A GNOME dynamic wallpaper — anime-style Icelandic landscape with 8 time-of-day variations.
 
-![preview](wallpapers/1.png)
+![preview](demo.gif)
 
 ## Time of day
 
