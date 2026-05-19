@@ -2,7 +2,7 @@
 
 > A GNOME dynamic wallpaper — anime-style Icelandic landscape with 8 time-of-day variations.
 
-![preview](preview.png)
+![preview](wallpapers/1.png)
 
 ## Time of day
 
@@ -76,6 +76,3 @@ and `<transition type="overlay">` blocks (crossfade between two images).
 
 AI-generated images — inspired by Icelandic landscapes, anime/illustration style.
 
----
-
-*Posted on [r/unixporn](https://reddit.com/r/unixporn)*
