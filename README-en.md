@@ -66,7 +66,7 @@ iceland-wallpaper/
 
 ## How it works
 
-GNOME natively supports dynamic wallpapers through an XML file — no daemon,
+GNOME natively supports dynamic wallpapers through an XML file no daemon,
 no cron job, no external dependency. It's handled directly by `gnome-session`.
 
 The `iceland-dynamic.xml` file defines `<static>` blocks (fixed duration)
